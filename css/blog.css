@@ -1,0 +1,178 @@
+/* Blog Page Styles */
+.blog-container {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Blog Heading */
+.blog-container h1 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Blog Description */
+.blog-container p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Blog Post Box */
+.blog-post {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+/* Blog Title */
+.blog-post h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Blog Date */
+.blog-date {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+/* Blog Content */
+.blog-post p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Read More Button */
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #f4a261;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Hover Effect */
+.read-more:hover {
+    color: #e76f51;
+}
+
+/* Blog Post Hover Effect */
+.blog-post:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .blog-container {
+        padding: 40px 15px;
+    }
+
+    .blog-container h1 {
+        font-size: 32px;
+    }
+
+    .blog-post h2 {
+        font-size: 20px;
+    }
+}
+/* Blog Page Styles */
+.blog-container {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Blog Heading */
+.blog-container h1 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Blog Description */
+.blog-container p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Blog Post Box */
+.blog-post {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+/* Blog Title */
+.blog-post h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Blog Date */
+.blog-date {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+/* Blog Content */
+.blog-post p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Read More Button */
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #f4a261;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Hover Effect */
+.read-more:hover {
+    color: #e76f51;
+}
+
+/* Blog Post Hover Effect */
+.blog-post:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .blog-container {
+        padding: 40px 15px;
+    }
+
+    .blog-container h1 {
+        font-size: 32px;
+    }
+
+    .blog-post h2 {
+        font-size: 20px;
+    }
+}
