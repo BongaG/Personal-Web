@@ -48,12 +48,18 @@ body {
 }
 
 .hero h1 {
-    font-size: 48px;
+    font-size: 20px;
     color: #64ffda;
 }
 
-.hero h2 {
-    font-size: 32px;
+.hero .big-name {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.hero h3 {
+    font-size: 30px;
     color: white;
 }
 
