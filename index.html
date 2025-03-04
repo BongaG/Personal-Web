@@ -2,15 +2,77 @@
     <title>Home Personal Web</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Your Name] - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+</head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="services.html">My Skills</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">[Your Initials]</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="resume.pdf" class="resume-button">Resume</a></li>
         </ul>
     </nav>
-    <h1>Welcome to My Personal Website</h1>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Hi, I'm <span>Bonga Gazu</span>.</h1>
+        <h2>I build things for the web.</h2>
+        <p>I'm a software engineer specializing in building exceptional digital experiences. Currently, I'm focused on developing accessible and high-quality front-end applications.</p>
+        <a href="#work" class="button">View My Work</a>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="images/profile.jpg" alt="[Your Name]">
+            <p>Hello! My name is [Your Name], and I love creating things for the web. My journey started in [Year], and since then, I have worked with various technologies to build modern, responsive applications.</p>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="work">
+        <h2>Some Things I've Built</h2>
+        <div class="work-item">
+            <img src="images/project1.jpg" alt="Project 1">
+            <div class="work-info">
+                <h3>Project Name</h3>
+                <p>Description of the project and technologies used.</p>
+                <a href="#" class="button">View Project</a>
+            </div>
+        </div>
+        <div class="work-item">
+            <img src="images/project2.jpg" alt="Project 2">
+            <div class="work-info">
+                <h3>Another Project</h3>
+                <p>Details about another project with key features.</p>
+                <a href="#" class="button">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <p>If you'd like to work together or just say hi, feel free to reach out!</p>
+        <a href="mailto:your.email@example.com" class="button">Say Hello</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 [Your Name]. Built with love.</p>
+    </footer>
+
 </body>
+</html>
